@@ -6,10 +6,10 @@ import "./styles/index.css";
 const rootElement = document.getElementById("root") as Element;
 
 if (!rootElement.innerHTML) {
-  const root = createRoot(rootElement);
-  root.render(
-    <React.StrictMode>
-      <App />
-    </React.StrictMode>
-  );
+	const root = createRoot(rootElement);
+	root.render(
+		<React.StrictMode>
+			<App />
+		</React.StrictMode>,
+	);
 }
